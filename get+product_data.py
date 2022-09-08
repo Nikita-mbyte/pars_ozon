@@ -3,7 +3,7 @@ import glob
 import re
 from pandas import Ha
 
-
+fdsfds
 def get_products() -> list:
     return glob.glob('products/*.html')
 
