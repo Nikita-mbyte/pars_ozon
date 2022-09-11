@@ -1,6 +1,6 @@
 from selenium_product import UseSelenium
 
-
+111
 def get_product_links() -> list:
     with open('product_links.txt', 'r', encoding='utf-8') as f:
         return f.readlines()
