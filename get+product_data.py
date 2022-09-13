@@ -13,9 +13,7 @@ def get_products() -> list:
 
 
 def get_json(filename: str) -> dict:
-    with open(filename, 'r', encoding='utf-8') as f:
-        data = f.read()
-        return json.loads(data)
+
 
 def parse_data(data: dict) -> dict:
     widgets = data.get('widgetStates')
