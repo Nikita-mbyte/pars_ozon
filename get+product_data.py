@@ -8,6 +8,10 @@ fsdf
 def get_products() -> list:
     return glob.glob('products/*.html')
 
+
+
+
+
 def get_json(filename: str) -> dict:
     with open(filename, 'r', encoding='utf-8') as f:
         data = f.read()
