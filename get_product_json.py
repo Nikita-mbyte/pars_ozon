@@ -20,7 +20,7 @@ def data_parsing(product: str, i: int, filename: str) -> None:
 
 def main():
     products = get_product_links()
-    i = 1
+    i = 1fwe32
     for product in products:
         data_parsing(product, i, filename='product_')
         i += 1
